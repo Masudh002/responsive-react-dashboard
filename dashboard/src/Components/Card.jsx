@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 const Card = ({ value,icon,title}) => {
   return (
     <div className=' bg-white text-black p-4 rounded-lg shadow-md flex items-center space-x-6
-      dark:bg-gray-900 dark:text-white'>
-        <div className=' text-3xl text-gray-500'>{icon}</div>
+      dark:bg-gray-900 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-800'>
+        <div className=' text-3xl text-gray-500 '>{icon}</div>
         <div>
             <h1 className=' text-lg font-semibold'>{title}</h1>
             <p className=' text-xl'>{value}</p>

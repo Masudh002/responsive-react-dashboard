@@ -1,7 +1,7 @@
-import React from 'react'
+
 const Orders = () => {
   return (
-    <div>
+    <div className=" grow p-8 lg:min-h-0 min-h-screen">
         <h1>Orders Page</h1>
     </div>
   )

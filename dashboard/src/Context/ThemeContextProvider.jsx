@@ -20,7 +20,7 @@ const ThemeContextProvider = ({children}) => {
 
     return (
         <ThemeContext.Provider value={{ theme, toggleTheme }}>
-            {children}  {/* Corrected from 'Children' to 'children' */}
+            {children}
         </ThemeContext.Provider>
     );
 };
